@@ -3,21 +3,15 @@
 
 .about-bg-wrapper {
   padding-top: 48px;
-  padding-bottom: 112px;
-  background-image: url(../img/about/about-bg-mob.png);
-  background-repeat: no-repeat;
-  background-position: bottom 48px center;
-  background-size: auto;
+  padding-bottom: 48px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
 
   @include media(desktop) {
     padding-top: 80px;
-    padding-bottom: 144px;
+    padding-bottom: 80px;
     max-width: 1440px;
-    background-image: url(../img/about/about-bg-desk.png);
-    background-position: bottom 80px center;
   }
 }
 
@@ -25,58 +19,72 @@
 }
 
 .about-title-wrapper {
-  margin-bottom: 40px;
+  margin-bottom: 48px;
 
   @include media(desktop) {
-    margin-bottom: 72px;
+    margin-bottom: 64px;
   }
 }
 
-.about-subtitle {
-  text-align: center;
-  margin-bottom: 24px;
+.about-content-wrapper {
+  @include media(desktop) {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 82px;
+  }
+}
+
+.about-quote-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 24px;
+  margin-bottom: 40px;
 
   @include media(desktop) {
-    text-align: left;
-    margin-left: 24px;
-    margin-bottom: 56px;
+    margin-bottom: 0;
+  }
+}
+
+.about-img {
+  min-width: 64px;
+}
+
+.about-quote-text {
+  font-family: 'Cormorant', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #222;
+  max-width: 255px;
+
+  @include media(desktop) {
+    font-size: 32px;
+    max-width: 289px;
   }
 }
 
 .about-text {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-weight: 300;
   font-size: 14px;
-  line-height: 1.6;
+  line-height: 1.4;
   text-align: center;
-  color: #182226;
-  margin-bottom: 80px;
+  color: #222;
 
   @include media(desktop) {
-    font-size: 16px;
+    font-size: 20px;
+    line-height: 1.5;
     text-align: left;
-    max-width: 387px;
-    margin-left: 24px;
-    margin-bottom: 286px;
+    max-width: 741px;
   }
 }
 
-.about-img-text {
-  font-family: 'Playfair Display', sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 1.5;
-  color: #f6f9fe;
-  max-width: 167px;
-  margin-left: 20px;
+.about-br {
+  display: none;
 
   @include media(desktop) {
-    font-size: 32px;
-    max-width: 401px;
-    margin-left: 94px;
+    display: block;
   }
-}
-
-.about-img-text-span {
-  font-style: italic;
 }

@@ -1,16 +1,23 @@
 .services-section {
+  background: #cbc7c4;
 }
 
 .services-bg-wrapper {
   padding-top: 48px;
-  padding-bottom: 48px;
+  padding-bottom: 364px;
+  background-image: url(../img/services/services-bg-mob.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: auto;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
 
   @include media(desktop) {
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
+    background-image: url(../img/services/services-bg-desk.png);
+    background-position: top left;
     max-width: 1440px;
   }
 }
@@ -19,20 +26,10 @@
 }
 
 .services-title-wrapper {
-  margin-bottom: 40px;
+  margin-bottom: 48px;
 
   @include media(desktop) {
     margin-bottom: 64px;
-  }
-}
-
-.services-subtitle {
-  text-align: center;
-  margin-bottom: 24px;
-
-  @include media(desktop) {
-    margin-left: 24px;
-    margin-bottom: 48px;
   }
 }
 
@@ -40,49 +37,79 @@
   @include media(desktop) {
     display: flex;
     justify-content: center;
-    align-items: center;
+    gap: 104px;
   }
 }
 
-.services-img {
+.services-subtitle {
+  text-align: center;
+  margin-bottom: 40px;
+
   @include media(desktop) {
-    min-width: 407px;
+    text-align: left;
+    margin-bottom: 0;
   }
 }
 
 .services-list {
-  background: #3e4d4f;
-  padding: 20px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 16px;
+  max-width: 303px;
+  margin-left: auto;
+  margin-right: auto;
 
   @include media(desktop) {
-    padding: 48px;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 48px;
+    align-items: start;
+    gap: 24px;
+    max-width: 738px;
   }
 }
 
 .services-list-item {
-  background: #182226;
-  padding: 20px;
+  border: 1px solid #fcfcfc;
+  border-radius: 16px;
+  padding: 24px 32px;
+  width: 100%;
+  max-width: 303px;
 
   @include media(desktop) {
-    padding: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 200px;
+    padding: 24px 30px;
+    max-width: 230px;
+    max-height: max-content;
+
+    &:nth-child(5) {
+      position: relative;
+      top: -30px;
+    }
+  }
+}
+
+.services-item-title {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  color: #222;
+  margin-bottom: 12px;
+
+  @include media(desktop) {
+    margin-bottom: 16px;
   }
 }
 
 .services-item-text {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5;
   text-align: center;
-  color: #f6f9fe;
+  color: #222;
+
+  @include media(desktop) {
+    max-width: 150px;
+  }
 }

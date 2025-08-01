@@ -28,10 +28,10 @@
 
 .process-subtitle {
   text-align: center;
-  margin-bottom: 24px;
+  margin-bottom: 40px;
 
   @include media(desktop) {
-    margin-bottom: 80px;
+    margin-bottom: 48px;
   }
 }
 
@@ -39,36 +39,41 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
-  margin-bottom: 24px;
+  gap: 20px;
 
   @include media(desktop) {
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 40px;
-  }
-}
-
-.process-list-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-
-  @include media(desktop) {
     gap: 24px;
   }
 }
 
+.process-list-item {
+  background: #716d6c;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  padding: 20px 12px;
+  gap: 16px;
+  width: 100%;
+
+  @include media(desktop) {
+    flex-direction: column;
+    padding: 24px 32px;
+    max-width: 220px;
+    min-height: 279px;
+  }
+}
+
 .process-item-number {
-  background: #3e4d4f;
-  border-radius: 1000px;
-  font-family: 'Playfair Display', sans-serif;
-  font-weight: 400;
+  background: #fcfcfc;
+  border-radius: 200px;
+  font-family: 'Cormorant', sans-serif;
+  font-weight: 600;
   font-size: 32px;
   line-height: 1.5;
   text-align: center;
-  color: #f6f9fe;
+  color: #266c7e;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,8 +81,9 @@
   height: 64px;
 
   @include media(desktop) {
-    min-width: 68px;
-    height: 68px;
+    font-size: 40px;
+    min-width: 76px;
+    height: 76px;
   }
 }
 
@@ -85,41 +91,28 @@
 }
 
 .process-item-title {
-  font-family: 'Playfair Display', sans-serif;
-  font-style: italic;
-  font-weight: 400;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
   font-size: 20px;
   line-height: 1.5;
-  color: #182226;
-  margin-bottom: 16px;
+  color: #fcfcfc;
+  margin-bottom: 8px;
 
   @include media(desktop) {
-    font-size: 24px;
+    text-align: center;
+    margin-bottom: 16px;
   }
 }
 
 .process-item-text {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-weight: 300;
   font-size: 14px;
-  line-height: 1.5;
-  color: #182226;
-  max-width: 235px;
+  line-height: 1.4;
+  color: #fcfcfc;
 
   @include media(desktop) {
-    font-size: 12px;
-    max-width: max-content;
+    line-height: 1.5;
+    text-align: center;
   }
-}
-
-.process-img-wrapper {
-  @include media(desktop) {
-    display: flex;
-    align-items: end;
-    max-height: 749px;
-    overflow: hidden;
-  }
-}
-
-.process-img {
 }
