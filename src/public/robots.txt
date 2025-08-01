@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://elevora.pro/sitemap.xml
+Sitemap: https://elevuno.pro/sitemap.xml

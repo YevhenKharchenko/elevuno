@@ -1,0 +1,94 @@
+.policy-section {
+  background: #fcfcfc;
+  padding-top: 112px;
+  padding-bottom: 32px;
+
+  @include media(desktop) {
+    padding-top: 136px;
+    padding-bottom: 56px;
+  }
+}
+
+.policy-main-title {
+  font-family: 'Cormorant', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.4;
+  color: #222;
+  text-align: center;
+  margin-bottom: 40px;
+
+  @include media(desktop) {
+    font-size: 64px;
+    margin-bottom: 48px;
+  }
+}
+
+.policy-title {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 1.4;
+  color: #222;
+  margin-bottom: 16px;
+
+  @include media(desktop) {
+  }
+}
+
+.policy-subtitle {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.4;
+  color: #222;
+  margin-bottom: 16px;
+
+  @include media(desktop) {
+  }
+}
+
+.policy-text {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #222;
+
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
+
+  @include media(desktop) {
+  }
+}
+
+.policy-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.policy-item {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #222;
+  margin-bottom: 8px;
+
+  &:last-child {
+    margin-bottom: 16px;
+  }
+
+  @include media(desktop) {
+  }
+}
+
+.policy-span {
+  text-decoration: underline;
+}
+
+.policy-link {
+  text-decoration: underline;
+  word-wrap: break-word;
+}

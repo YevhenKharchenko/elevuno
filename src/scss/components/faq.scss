@@ -19,19 +19,9 @@
 }
 
 .faq-title-wrapper {
-  margin-bottom: 40px;
+  margin-bottom: 48px;
 
   @include media(desktop) {
-    margin-bottom: 48px;
-  }
-}
-
-.faq-subtitle {
-  text-align: center;
-  margin-bottom: 32px;
-
-  @include media(desktop) {
-    margin-bottom: 48px;
   }
 }
 
@@ -56,10 +46,9 @@
 }
 
 .faq-item-question-wrapper {
-  padding: 12px;
+  padding: 12px 24px;
 
   @include media(desktop) {
-    padding: 12px 24px;
   }
 }
 
@@ -88,28 +77,29 @@
 }
 
 .faq-icon {
-  stroke: #182226;
+  stroke: #222222;
 }
 
 .faq-btn-text {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-weight: 300;
-  font-size: 18px;
-  line-height: 1.5;
-  color: #182226;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #222;
   text-align: left;
 
   @include media(desktop) {
-    font-size: 20px;
+    font-size: 24px;
+    line-height: 1.5;
   }
 }
 
 .faq-bottom-text {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.4;
-  color: #182226;
+  color: #222;
 
   @include media(desktop) {
     font-size: 14px;
@@ -131,11 +121,10 @@
 }
 
 .faq-list-item.faq-open .faq-item-answer-wrapper {
-  padding: 4px 12px 12px 12px;
+  padding: 4px 24px 12px 24px;
   opacity: 1;
   max-height: 500px;
 
   @include media(desktop) {
-    padding: 4px 24px 12px 24px;
   }
 }

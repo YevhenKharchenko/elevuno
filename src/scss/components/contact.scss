@@ -1,0 +1,132 @@
+.contact-section {
+  background: #393b3f;
+}
+
+.contact-bg-wrapper {
+  padding-top: 48px;
+  padding-bottom: 416px;
+  background-image: url(../img/contact/contact-bg-mob.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: auto;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 80px;
+    padding-bottom: 216px;
+    background-image: url(../img/contact/contact-bg-desk.png);
+    background-position: bottom center;
+    max-width: 1440px;
+  }
+}
+
+.contact-container {
+}
+
+.contact-title {
+  color: #fcfcfc;
+
+  @include media(desktop) {
+    color: #222;
+  }
+}
+
+.contact-title-wrapper {
+  margin-bottom: 48px;
+
+  @include media(desktop) {
+    margin-bottom: 64px;
+  }
+}
+
+.contact-subtitle {
+  color: #fcfcfc;
+  text-align: center;
+  margin-bottom: 40px;
+
+  @include media(desktop) {
+    color: #222;
+    text-align: left;
+    margin-bottom: 64px;
+  }
+}
+
+.contact-subtitle-br {
+  @include media(desktop) {
+    display: none;
+  }
+}
+
+.contact-text {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #fcfcfc;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+    font-size: 24px;
+    color: #222;
+    text-align: left;
+    margin-bottom: 48px;
+  }
+}
+
+.contact-email-wrapper {
+  @include media(desktop) {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+}
+
+.contact-email-text {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #fcfcfc;
+  margin-bottom: 8px;
+
+  @include media(desktop) {
+    font-size: 24px;
+    color: #222;
+    margin-bottom: 0;
+  }
+}
+
+.contact-email-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #cbc7c4;
+
+  @include media(desktop) {
+    font-size: 24px;
+    color: #266c7e;
+  }
+}
+
+.email-icon {
+  @include media(desktop) {
+    display: none;
+  }
+}
+
+.envelope-icon {
+  display: none;
+
+  @include media(desktop) {
+    display: block;
+  }
+}
