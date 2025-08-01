@@ -1,6 +1,5 @@
 .header {
-  background: rgba(246, 249, 254, 0.4);
-  backdrop-filter: blur(10px);
+  background: #fcfcfc;
   padding: 12px 0;
   position: fixed;
   width: 100%;
@@ -44,23 +43,22 @@
 
 .nav-list-link {
   @include media(desktop) {
-    padding: 8px;
-    font-family: 'Playfair Display', sans-serif;
-    font-weight: 400;
+    font-family: 'Cormorant', sans-serif;
+    font-weight: 300;
     font-size: 14px;
-    text-transform: uppercase;
-    color: #182226;
+    color: #222;
+    opacity: 0.8;
     transition: all 0.3s ease-in-out;
 
     &:hover,
     &.active {
-      border-bottom: 1px solid #3e4d4f;
+      border-bottom: 1px solid #266c7e;
     }
   }
 }
 
 .nav-list-link.active {
-  border-bottom: 1px solid #3e4d4f;
+  border-bottom: 1px solid #266c7e;
 }
 
 .nav-btn {

@@ -2,7 +2,7 @@
   display: none;
   background: rgba(246, 249, 254, 0.2);
   backdrop-filter: blur(10px);
-  padding: 48px 22px 61px 22px;
+  padding: 40px 17px 60px 17px;
   max-width: 375px;
   width: 100%;
   margin: 0 auto;
@@ -33,15 +33,14 @@
   align-items: center;
   padding-top: 8px;
   padding-bottom: 8px;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Cormorant', sans-serif;
   font-weight: 400;
-  font-size: 16px;
-  text-transform: uppercase;
-  color: #182226;
+  font-size: 20px;
+  color: #222;
   transition: all 0.3s ease-in-out;
 
   &:active {
-    border-bottom: 1px solid #3e4d4f;
+    border-bottom: 1px solid #266c7e;
   }
 }
 
@@ -56,13 +55,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-weight: 300;
   font-size: 14px;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   text-align: center;
-  color: #182226;
+  color: #222;
   transition: all 0.3s ease-in-out;
 }
 
