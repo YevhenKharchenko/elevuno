@@ -1,0 +1,82 @@
+.about-section {
+}
+
+.about-bg-wrapper {
+  padding-top: 48px;
+  padding-bottom: 112px;
+  background-image: url(../img/about/about-bg-mob.png);
+  background-repeat: no-repeat;
+  background-position: bottom 48px center;
+  background-size: auto;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 80px;
+    padding-bottom: 144px;
+    max-width: 1440px;
+    background-image: url(../img/about/about-bg-desk.png);
+    background-position: bottom 80px center;
+  }
+}
+
+.about-container {
+}
+
+.about-title-wrapper {
+  margin-bottom: 40px;
+
+  @include media(desktop) {
+    margin-bottom: 72px;
+  }
+}
+
+.about-subtitle {
+  text-align: center;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+    text-align: left;
+    margin-left: 24px;
+    margin-bottom: 56px;
+  }
+}
+
+.about-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: center;
+  color: #182226;
+  margin-bottom: 80px;
+
+  @include media(desktop) {
+    font-size: 16px;
+    text-align: left;
+    max-width: 387px;
+    margin-left: 24px;
+    margin-bottom: 286px;
+  }
+}
+
+.about-img-text {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #f6f9fe;
+  max-width: 167px;
+  margin-left: 20px;
+
+  @include media(desktop) {
+    font-size: 32px;
+    max-width: 401px;
+    margin-left: 94px;
+  }
+}
+
+.about-img-text-span {
+  font-style: italic;
+}

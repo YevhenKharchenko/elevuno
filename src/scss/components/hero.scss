@@ -1,0 +1,85 @@
+.hero-section {
+  padding-top: 112px;
+  padding-bottom: 64px;
+  background-image: url(../img/hero/hero-bg-mob.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: auto;
+
+  @include media(desktop) {
+    padding-top: 125px;
+    padding-bottom: 337px;
+    background-image: url(../img/hero/hero-bg-desk.png);
+  }
+}
+
+.hero-container {
+  padding: 0;
+}
+
+.hero-title {
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 1.5;
+  text-align: center;
+  color: #182226;
+  margin-bottom: 288px;
+
+  @include media(desktop) {
+    font-size: 56px;
+    margin-bottom: 48px;
+  }
+}
+
+.hero-span {
+  font-style: italic;
+  font-weight: 700;
+}
+
+.hero-text {
+  background: rgba(246, 249, 254, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 40px 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #182226;
+  opacity: 0.7;
+  margin-bottom: 40px;
+
+  @include media(desktop) {
+    background: none;
+    backdrop-filter: none;
+    padding: 0;
+    font-weight: 300;
+    margin-bottom: 76px;
+    max-width: 519px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.hero-btn {
+  box-shadow: 0 2px 2px 0 rgba(72, 82, 95, 0.4);
+  background: #f6f9fe;
+  border: 1px solid #93b0b6;
+  border-radius: 40px;
+  padding: 16px 61px;
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #182226;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+  }
+}

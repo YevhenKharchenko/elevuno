@@ -1,0 +1,81 @@
+:root {
+  font-family: 'Work Sans', sans-serif;
+  color: $_main_color;
+  background: $_main_bg_color;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.container {
+  width: 100%;
+  max-width: 375px;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    max-width: 1440px;
+    padding-right: 120px;
+    padding-left: 120px;
+  }
+}
+
+.section {
+  scroll-margin-top: 30px;
+
+  @include media(desktop) {
+    scroll-margin-top: 20px;
+  }
+}
+
+.section-title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @include media(desktop) {
+  }
+}
+
+.section-title {
+  font-family: 'Cormorant', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #222;
+}
+
+.section-subtitle {
+  font-family: 'Cormorant', sans-serif;
+  font-weight: 300;
+  font-size: 39px;
+  line-height: 1.5;
+  color: #222;
+
+  @include media(desktop) {
+    font-size: 56px;
+  }
+}

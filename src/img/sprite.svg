@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="icon-back-arrow" viewBox="0 0 32 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.333" d="M21.333 26 10.666 16 21.333 6"/>
+    </symbol>
+    <symbol id="icon-close" viewBox="0 0 32 32">
+      <path fill="none" stroke="#266c7e" stroke-width="1.333" d="M16 .667C24.468.667 31.333 7.532 31.333 16S24.468 31.333 16 31.333.667 24.468.667 16 7.532.667 16 .667z" style="stroke:var(--color1, #266c7e)"/>
+      <path fill="none" stroke="#222" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.333" d="m7 7 9 9m0 0-9 9m9-9 9 9m-9-9 9-9" style="stroke:var(--color2, #222)"/>
+    </symbol>
+    <symbol id="icon-email" viewBox="0 0 36 32">
+      <path fill="#cbc7c4" d="M32.625 29.714H3.375C1.508 29.714 0 28.182 0 26.285V5.714c0-1.897 1.508-3.429 3.375-3.429h29.25C34.493 2.285 36 3.816 36 5.714v20.571c0 1.897-1.507 3.429-3.375 3.429zM3.375 4.571c-.63 0-1.125.503-1.125 1.143v20.571c0 .64.495 1.143 1.125 1.143h29.25c.63 0 1.125-.503 1.125-1.143V5.714c0-.64-.495-1.143-1.125-1.143H3.375z" style="fill:var(--color3, #cbc7c4)"/>
+      <path fill="#cbc7c4" d="M18 20.479c-1.575 0-3.015-.64-4.095-1.806L2.092 5.919c-.427-.457-.405-1.189.045-1.623s1.17-.411 1.598.046l11.813 12.754c1.283 1.394 3.623 1.394 4.905 0L32.266 4.365c.427-.457 1.147-.48 1.597-.046s.473 1.166.045 1.623L22.096 18.696c-1.08 1.166-2.52 1.806-4.095 1.806v-.023z" style="fill:var(--color3, #cbc7c4)"/>
+    </symbol>
+    <symbol id="icon-menu" viewBox="0 0 32 32">
+      <path fill="none" stroke="#266c7e" stroke-width="1.333" d="M16 .667C24.468.667 31.333 7.532 31.333 16S24.468 31.333 16 31.333.667 24.468.667 16 7.532.667 16 .667z" style="stroke:var(--color1, #266c7e)"/>
+      <path fill="none" stroke="#222" stroke-linecap="round" stroke-width="1.333" d="M7.5 9.5h17m-17 12h17m-17-6h17" style="stroke:var(--color2, #222)"/>
+    </symbol>
+    <symbol id="icon-plus" viewBox="0 0 32 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.333" d="M16 3.272V16m0 0H3.272M16 16v12.728M16 16h12.728"/>
+    </symbol>
+  </defs>
+</svg>

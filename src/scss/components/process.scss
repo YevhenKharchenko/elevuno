@@ -1,0 +1,125 @@
+.process-section {
+}
+
+.process-bg-wrapper {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    max-width: 1440px;
+  }
+}
+
+.process-container {
+}
+
+.process-title-wrapper {
+  margin-bottom: 40px;
+
+  @include media(desktop) {
+    margin-bottom: 64px;
+  }
+}
+
+.process-subtitle {
+  text-align: center;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+    margin-bottom: 80px;
+  }
+}
+
+.process-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+}
+
+.process-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  @include media(desktop) {
+    gap: 24px;
+  }
+}
+
+.process-item-number {
+  background: #3e4d4f;
+  border-radius: 1000px;
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.5;
+  text-align: center;
+  color: #f6f9fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 64px;
+  height: 64px;
+
+  @include media(desktop) {
+    min-width: 68px;
+    height: 68px;
+  }
+}
+
+.process-item-text-wrapper {
+}
+
+.process-item-title {
+  font-family: 'Playfair Display', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #182226;
+  margin-bottom: 16px;
+
+  @include media(desktop) {
+    font-size: 24px;
+  }
+}
+
+.process-item-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #182226;
+  max-width: 235px;
+
+  @include media(desktop) {
+    font-size: 12px;
+    max-width: max-content;
+  }
+}
+
+.process-img-wrapper {
+  @include media(desktop) {
+    display: flex;
+    align-items: end;
+    max-height: 749px;
+    overflow: hidden;
+  }
+}
+
+.process-img {
+}
